@@ -41,7 +41,10 @@ body {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   background-color: var(--clr-black);
+<<<<<<< HEAD
   color: var(--clr-white);
+=======
+>>>>>>> 4d57f3355a766922383f618e0b63201899ca1050
 }
 @media screen and (max-width: 768px) {
   body {
