@@ -15,7 +15,6 @@ const StyledForm = styled.form`
 const Asteroids = () => {
   const state_date = useRef("");
   const end_date = useRef("");
-  const [fetching, setFetching] = useState(false);
 
   const handleAsteroidsQuery = async (event) => {
     event.preventDefault();
