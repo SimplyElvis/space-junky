@@ -1,0 +1,119 @@
+/****************
+  VARIABLES
+ ***************/
+:root {
+  /* page */
+  --header-height: 4rem;
+  --footer-height: 3rem;
+  --page-height: calc(100vh - (var(--nav-height) + var(--footer-height)));
+  --page-padding: 1.2rem;
+  --max-page-width: 1440px;
+  --page-padding: 1rem;
+
+  /* fonts */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* colors */
+  --clr-white: #ffffff;
+  --clr-black: #191919;
+  --clr-light: grey;
+  --clr-lightblue: #add8e6;
+  --clr-blue: blue;
+  --clr-darkblue: darkblue;
+}
+
+/******************
+    GLOBAL RESETs
+ ******************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--clr-white);
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+mark {
+  background-color: var(--clr-lightblue);
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: var(--fw-medium);
+  font-size: 0.95rem;
+  color: var(--clr-white);
+}
+
+time {
+  font-weight: var(--fw-medium);
+  color: var(--clr-lightblue);
+}
+
+label {
+  font-weight: var(--fw-medium);
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: var(--fw-medium);
+  color: var(--clr-blue);
+}
+/****************
+    UTILITY CLASSES
+******************/
+.offscreen {
+  position: absolute;
+  top: -1000%;
+  left: -10000%;
+}
+
+.flex-between {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  background-color: var(--clr-white);
+  border-radius: 10px;
+  border: solid 1px var(--clr-lightblue);
+  font-size: 0.9rem;
+  padding: 1rem;
+  margin-inline: 1rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 1rem;
+  color: white;
+  background-color: var(--clr-blue);
+  cursor: pointer;
+  outline: none;
+  border: solid 1px var(--clr-blue);
+  border-radius: 10px;
+  font-weight: var(--fw-medium);
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+
+.nav {
+  display: flex;
+  gap: 0.5rem;
+}
