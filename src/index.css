@@ -18,11 +18,12 @@
 
   /* colors */
   --clr-white: #ffffff;
-  --clr-black: #191919;
-  --clr-light: grey;
-  --clr-lightblue: #add8e6;
-  --clr-blue: blue;
-  --clr-darkblue: darkblue;
+  --clr-black: #03071e;
+  --clr-light: #07114a;
+  --clr-lightblue: #ffbf1f;
+  --clr-blue: #ffba08;
+  --clr-darkblue: #faa307;
+  --clr-accent: #d00000;
 }
 
 /******************
