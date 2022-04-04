@@ -32,6 +32,11 @@ const SpaceMatador = styled.span`
   align-items: center;
   gap: 0.5rem;
 
+  img {
+    height: 52px;
+    width: 52px;
+  }
+
   a {
     font-size: inherit;
     font-color: inherit;
