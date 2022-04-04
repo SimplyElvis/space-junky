@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <StyledHome>
       <ContentOfTheDay />
+      <hr />
       <Asteroids />
     </StyledHome>
   );
