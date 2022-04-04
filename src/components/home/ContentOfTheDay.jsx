@@ -10,6 +10,7 @@ const Wrapper = styled.section`
   justify-content: center;
   gap: 1rem;
   padding-block: var(--page-padding);
+  background-color: var(--clr-black);
 
   @media (max-width: 768px) {
     flex-direction: column;
