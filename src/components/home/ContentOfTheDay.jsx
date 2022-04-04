@@ -17,14 +17,14 @@ const Wrapper = styled.section`
 `;
 
 const MediaImage = styled.img`
-  min-width: 300px;
+  min-width: 330px;
   width: 100%;
   max-width: 500px;
   object-fit: contain;
 `;
 
 const MediaVideo = styled.video`
-  min-width: 300px;
+  min-width: 330px;
   width: 100%;
   max-width: 500px;
   object-fit: contain;
@@ -39,6 +39,7 @@ const NoteSection = styled.section`
   flex-direction: column;
   gap: 1rem;
   font-size: 0.95rem;
+  color: var(--clr-white);
 `;
 
 const ContentOfTheDay = () => {
