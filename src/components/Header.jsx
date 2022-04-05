@@ -58,8 +58,8 @@ const Header = () => {
         </SpaceMatador>
 
         <nav className="nav">
-          <Link to="/map">Map</Link>
-          <span>Link</span>
+          {/* <Link to="/map">Map</Link> */}
+          {/* <span>Link</span> */}
         </nav>
       </section>
     </StyledHeader>
