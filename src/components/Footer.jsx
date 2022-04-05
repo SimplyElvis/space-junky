@@ -6,14 +6,14 @@ const StyledFooter = styled.footer`
   display: flex;
   justify-content: space-evenly;
   place-items: center;
-  background-color: chocolate;
+  background-color: var(--clr-darkblue);
 `;
 
 const Footer = () => {
   return (
     <StyledFooter>
-      <section>left</section>
-      <section>right</section>
+      <section>Built with Reactjs v17</section>
+      <section>Nasa API via proxy server</section>
     </StyledFooter>
   );
 };
