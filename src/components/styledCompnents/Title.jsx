@@ -5,6 +5,7 @@ const Title = styled.h2`
   font-color: var(--clr-black);
   font-weight: var(--fw-bold);
   text-transform: capitalize;
+  color: var(--clr-white);
 `;
 
 export default Title;

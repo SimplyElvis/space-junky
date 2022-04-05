@@ -102,11 +102,6 @@ const ContentOfTheDay = () => {
             <section className="flex-between">
               <time>{date}</time>
               <mark>{copyright}</mark>
-              <section>
-                <span>tags</span>
-                <span>tags</span>
-                <span>tags</span>
-              </section>
             </section>
           </NoteSection>
         </Wrapper>
